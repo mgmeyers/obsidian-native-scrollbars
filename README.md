@@ -13,6 +13,12 @@ This plugin enables native scrollbars in Obsidian. By default, Obsidian's scroll
 
 <img src="https://raw.githubusercontent.com/mgmeyers/obsidian-native-scrollbars/main/screenshots/native-scrollbars.gif" alt="A short gif demonstraiting native scrollbars">
 
+## Known issue: light scroll bars in dark mode
+
+On macOS, the native scrollbar background color is determined by a scroll containers background color. If a background color isn't set, the scrollbars will be in light mode.
+
+<img src="https://raw.githubusercontent.com/mgmeyers/obsidian-native-scrollbars/main/screenshots/darkmode-issue.gif" alt="A short gif demonstraiting issues with dark-mode scrollbars">
+
 ## Installation
 
 This plugin can be installed using the Beta Reviewer's Auto-update Tool (BRAT) which can be installed from the community plugin list. With BRAT installed and active, you can install Native Scrollbars by adding `mgmeyers/obsidian-native-scrollbars` as a beta plugin.

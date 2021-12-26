@@ -35,7 +35,7 @@ export default class NativeScrollbarPlugin extends Plugin {
 
 	onunload() {
 		new Notice(
-			"Native scrollbars disabled. Please restart Obsidian to enable themed scrollbars.",
+			"Native scrollbars disabled. Restart is required to take effect.",
 			5000
 		);
 	}

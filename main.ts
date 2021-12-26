@@ -2,6 +2,8 @@ import { Notice, Plugin } from "obsidian";
 
 export default class NativeScrollbarPlugin extends Plugin {
 	async onload() {
+		document.body.addClass('native-scrollbars');
+
 		this.registerEvent(
 			this.app.workspace.on("css-change", () => {
 				this.removeScrollbarStyles();
@@ -34,6 +36,8 @@ export default class NativeScrollbarPlugin extends Plugin {
 	}
 
 	onunload() {
+		document.body.removeClass('native-scrollbars');
+
 		new Notice(
 			"Native scrollbars disabled. Restart is required to take effect.",
 			5000

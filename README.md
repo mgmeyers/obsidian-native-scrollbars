@@ -15,7 +15,7 @@ This plugin enables native scrollbars in Obsidian. By default, Obsidian's scroll
 
 ## Known issue: light scroll bars in dark mode
 
-On macOS, the native scrollbar background color is determined by a scroll containers background color. If a background color isn't set, the scrollbars will be in light mode.
+On macOS, the native scrollbar background color is determined by a scroll container's background color. If a background color isn't set, the scrollbars will be in light mode. Nearly transparent background colors will work for this, eg: `background-color: #00000001;`
 
 <img src="https://raw.githubusercontent.com/mgmeyers/obsidian-native-scrollbars/main/screenshots/darkmode-issue.gif" alt="A short gif demonstraiting issues with dark-mode scrollbars">
 

@@ -31,7 +31,9 @@ export default class NativeScrollbarPlugin extends Plugin {
 						sheet.deleteRule(j--);
 					}
 				}
-			} catch {}
+			} catch (e) {
+				console.debug('Obsidian Native Scrollbars: ', e);
+			}
 		}
 	}
 

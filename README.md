@@ -19,6 +19,8 @@ On macOS, the native scrollbar background color is determined by a scroll contai
 
 <img src="https://raw.githubusercontent.com/mgmeyers/obsidian-native-scrollbars/main/screenshots/darkmode-issue.gif" alt="A short gif demonstraiting issues with dark-mode scrollbars">
 
+**Note:** When this plugin is active, the `.native-scrollbars` class is added to the body element.
+
 ## Installation
 
 This plugin can be installed using the Beta Reviewer's Auto-update Tool (BRAT) which can be installed from the community plugin list. With BRAT installed and active, you can install Native Scrollbars by adding `mgmeyers/obsidian-native-scrollbars` as a beta plugin.

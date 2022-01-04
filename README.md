@@ -1,7 +1,5 @@
 ## Obsidian Native Scrollbars
 
-*Note: this plugin is currently waiting for approval into community plugins. See installation notes below.*
-
 This plugin enables native scrollbars in Obsidian. By default, Obsidian's scrollbars are themed and can't be reverted using purely CSS, thus, a plugin is needed.
 
 **Obsidian's default scrollbars**
@@ -22,10 +20,6 @@ On macOS, the native scrollbar background color is determined by a scroll contai
 https://codepen.io/mgmeyers/pen/KKXyjYv
 
 **Note:** When this plugin is active, the `.native-scrollbars` class is added to the body element.
-
-## Installation
-
-This plugin can be installed using the Beta Reviewer's Auto-update Tool (BRAT) which can be installed from the community plugin list. With BRAT installed and active, you can install Native Scrollbars by adding `mgmeyers/obsidian-native-scrollbars` as a beta plugin.
 
 ## Support
 
